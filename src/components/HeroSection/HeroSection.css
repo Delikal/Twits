@@ -1,0 +1,17 @@
+.hero-section {
+    background-color: rgb(239, 216, 140);
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero-title {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+  }
+  

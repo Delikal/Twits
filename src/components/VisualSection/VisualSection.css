@@ -1,0 +1,11 @@
+.visual-section {
+    width: 1000px;
+    height: 500px; /* Výška viewportu */
+    background-color: white; /* Bílé pozadí */
+  }
+  
+  .visual-section__content {
+    width: 1000px;
+    height: 500px;
+  }
+  

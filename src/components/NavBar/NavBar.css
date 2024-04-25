@@ -1,0 +1,124 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0; /* Šířka sidebaru */
+  right: 0;
+  height: 60px;
+  background-color: #ffffff; /* Tmavé pozadí */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+  color: #161616;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 30px;
+  height: 40px;
+  width: auto;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.user-icon {
+  height: auto;
+  width: 25px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-links .nav-link {
+  color: #111827;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.navbar-links .nav-link:hover {
+  color: #9032E5; /* Barva při najetí myší */
+}
+
+.nav-link.login {
+  background-color: #9032E5;
+  color: #ffffff;
+}
+
+.nav-link.register {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.nav-link.login:hover {
+  background-color: #802cc9;
+  color: #ffffff;
+}
+
+.nav-link.register:hover {
+  background-color: #0c1018;
+  color: #ffffff;
+}
+
+.nav-link--user-icon {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-search {
+  display: flex;
+  flex-grow: 1; /* Pole se rozšíří, aby vyplnilo dostupný prostor */
+  margin: 0 20px; /* Přidání mezery okolo vyhledávacího pole */
+  padding-left: 120px;
+  padding-right: 45%;
+}
+
+.search-input {
+  width: 100%; /* Šířka vyhledávacího pole */
+  padding: 8px 15px; /* Vnitřní odsazení */
+  border: 1px solid #ddd; /* Hranice pole */
+  border-radius: 4px; /* Zaoblené rohy */
+  font-size: 16px; /* Velikost písma */
+}
+
+.search-input:focus {
+  outline: none; /* Odebrání obrysu při fokusu */
+  border-color: #9032E5; /* Změna barvy hranice při fokusu */
+}
+
+.navbar-search-container {
+  flex-grow: 1; /* Pole se rozšíří, aby vyplnilo dostupný prostor */
+  margin: 0 20px; /* Přidání mezery okolo vyhledávacího pole */
+  position: relative; /* Pro absolutní pozicování tlačítka s lupou */
+}
+
+.search-button {
+  width: 40px; /* Šířka tlačítka */
+  height: 100%; /* Výška stejná jako vyhledávací pole */
+  border: 1px solid #ddd; /* Hranice tlačítka */
+  background-color: #fff; /* Barva pozadí */
+  border-radius: 0 4px 4px 0; /* Zaoblené rohy jen zprava */
+  display: flex; /* Pro centrování ikony */
+  justify-content: center; /* Horizontální centrování */
+  align-items: center; /* Vertikální centrování */
+}
+
+.search-button img {
+  width: 20px; /* Velikost ikony */
+  height: 20px; /* Velikost ikony */
+}

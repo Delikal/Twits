@@ -1,0 +1,65 @@
+[
+    {
+        "radek": 1,
+        "sloupec": 1,
+        "id": "rostlina_1_1",
+        "zralost": 1,
+        "nemoc": 2
+    },
+    {
+        "radek": 1,
+        "sloupec": 2,
+        "id": "rostlina_1_2",
+        "zralost": 0,
+        "nemoc": 1
+    },
+    {
+        "radek": 1,
+        "sloupec": 3,
+        "id": "rostlina_1_3",
+        "zralost": 2,
+        "nemoc": 2
+    },
+    {
+        "radek": 2,
+        "sloupec": 1,
+        "id": "rostlina_2_1",
+        "zralost": 2,
+        "nemoc": 0
+    },
+    {
+        "radek": 2,
+        "sloupec": 2,
+        "id": "rostlina_2_2",
+        "zralost": 0,
+        "nemoc": 2
+    },
+    {
+        "radek": 2,
+        "sloupec": 3,
+        "id": "rostlina_2_3",
+        "zralost": 2,
+        "nemoc": 0
+    },
+    {
+        "radek": 3,
+        "sloupec": 1,
+        "id": "rostlina_3_1",
+        "zralost": 1,
+        "nemoc": 0
+    },
+    {
+        "radek": 3,
+        "sloupec": 2,
+        "id": "rostlina_3_2",
+        "zralost": 1,
+        "nemoc": 0
+    },
+    {
+        "radek": 3,
+        "sloupec": 3,
+        "id": "rostlina_3_3",
+        "zralost": 0,
+        "nemoc": 2
+    }
+]

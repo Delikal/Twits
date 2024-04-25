@@ -1,0 +1,74 @@
+.sidebar {
+  background-color: #fafafa; /* Přizpůsobte barvu pozadí */
+  width: 250px; /* Nastavte šířku bočního panelu */
+  height: 100vh; /* Výška celé obrazovky */
+  position: fixed;
+  top: 60px;
+  left: 0;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  width: 100%; /* Plná šířka bočního panelu */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  width: 100%; /* Plná šířka položky menu */
+  margin: 5px 0; /* Přizpůsobte okraj položky menu */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  display: block; /* Zajistí, aby odkaz zabíral celou šířku položky */
+  padding: 10px 15px; /* Přizpůsobte padding odkazu */
+}
+
+.nav-link:hover {
+  color: #9032E5; /* Barva při najetí myší */
+  background-color: #f2f2f2; /* Přizpůsobte barvu pozadí při najetí myší */
+}
+
+/* Styly pro doporučené kanály */
+.recommended-channels {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.recommended-channels h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.channels-list {
+  list-style: none;
+  padding: 0;
+}
+
+.channel {
+  margin-bottom: 10px;
+}
+
+.channel img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.channel span {
+  vertical-align: middle;
+}

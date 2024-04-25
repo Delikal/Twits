@@ -1,0 +1,31 @@
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+  }
+  
+  .feature {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .feature-image {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  
+  .feature h2 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  

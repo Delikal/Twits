@@ -1,0 +1,110 @@
+.video-js .vjs-control-bar {
+  /* Změna pozadí ovládacích prvků */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(255, 255, 255, 0));
+}
+
+/* Zarovnání tlačítka fullscreen na pravou stranu */
+.video-js .vjs-fullscreen-control {
+  order: 10;
+}
+
+/* Zarovnání zbývajících prvků na levou stranu */
+.video-js .vjs-control-bar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.vjs-settings-button {
+  /* Vlastní styly pro tlačítko */
+  color: white;
+  margin: 0 5px;
+  margin-left: auto!important;
+  cursor: pointer;
+}
+
+/* Změna velikosti původních tlačítek v ovládací liště */
+.video-js .vjs-control-bar .vjs-button {
+  font-size: 1.6em; /* Změňte velikost podle potřeby */
+}
+
+/* Změna výšky ovládací lišty na 5em */
+.video-js .vjs-control-bar {
+  height: 5em;
+}
+
+.video-js .vjs-big-play-button {
+  font-size: 6em;
+  background-color: transparent!important;
+  border: none;
+  transition: transform 0.6s ease-in-out;
+}
+
+.video-js .vjs-big-play-button:focus {
+  /* Odstranění pozadí tlačítka */
+  background-color: transparent!important;
+  border: none;
+  transform: scale(1.2);
+}
+
+.video-js .vjs-big-play-button:hover {
+  /* Odstranění pozadí tlačítka */
+  background-color: transparent!important;
+  border: none;
+  transform: scale(1.2);
+}
+
+/* Styly pro LiveButton */
+.vjs-live-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.live-label {
+  font-weight: bold;
+}
+
+.settings-panel {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.settings-option {
+  margin-bottom: 10px;
+}
+
+.settings-option label {
+  margin-right: 10px;
+}
+
+/* Styly pro TopControlBar */
+.vjs-top-control-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5em;
+}
+
+/* Přidání třídy pro automatické skrytí horního kontrolního baru */
+.vjs-top-control-bar-not {
+  display: none;
+}
+
